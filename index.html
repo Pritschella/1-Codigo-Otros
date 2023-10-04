@@ -1,16 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
-    <title>APIs</title>
-</head>
-<body>
-    <p class="name"></p>
-    <p class="blog"></p>
 
-  <script src="../assets/js/app.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Ruta incorrecta -->
+  <!-- <link rel="stylesheet" href="assets/styles.css"> -->
+  <!-- Ruta que direcciona correctamente al documento de estilos-->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <title>APIs</title>
+</head>
+
+<body>
+
+  <!-- Descripción del funcionamiento del código;
+  Dentro del archivo html se muestran los componentes mostrados e incorporados para que la información se muestre, como es el caso del name, el blog, y la location de la tabla.
+  Así mismo, se muestran más componentes porque se ven necesarios, sin embargo, desconozco completamente la funcioanlidad o lo que se quiere realizar con dichos datos y componentes.
+  
+  -->
+
+  <!-- Se agregan algunos componentes que identifiqué en el archivo style.css -->
+  <main>
+    <br>
+    <!-- Se agaregó una tabla que almacena alguna información desde js, y porque en la tabla de estilos vienen etiquetas de una tabla  -->
+    <h1>Tablita de datos</h1>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Blog</th>
+        <th>Location</th>
+      </tr>
+      <tr>
+        <th>
+          <p class="name">Name</p>
+        </th>
+        <th>
+          <a href="">
+            <p class="blog">Blog</p>
+          </a>
+        </th>
+        <th>
+          <p class="location">Location</p>
+        </th>
+      </tr>
+    </table>
+
+    <hr>
+    <h1>Componentes...</h1>
+    <div class="wrapper">
+
+
+      <img
+        src="https://images.pexels.com/photos/18523343/pexels-photo-18523343/free-photo-of-mar-paisaje-playa-vacaciones.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+      <label for="txta">Text Area</label>
+      <textarea name="textArea" id="ta" cols="30" rows="10"></textarea>
+      <button>Botón</button>
+    </div>
+
+  </main>
+
+  <!-- Línea de código antes de ser modificada (ruta) -->
+  <!-- <script src="../assets/js/app.js"></script> -->
+  <!-- Línea de código después de que la ruta del script haya sido corregida: -->
+  <script src="./assets/js/app.js"></script>
+
+
 </body>
+
 </html>
